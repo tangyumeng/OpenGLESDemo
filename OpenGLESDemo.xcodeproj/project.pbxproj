@@ -11,6 +11,8 @@
 		7D0408BC209F12A000A90A02 /* VertexShader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 7D0408BB209F12A000A90A02 /* VertexShader.vsh */; };
 		7D0408BE209F12D900A90A02 /* FragmentShader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 7D0408BD209F12D900A90A02 /* FragmentShader.fsh */; };
 		7D0408C7209F271400A90A02 /* TriangleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D0408C6209F271400A90A02 /* TriangleViewController.m */; };
+		7D0408C9209F3B4A00A90A02 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D0408C8209F3B4A00A90A02 /* GLKit.framework */; };
+		7D0408CC209F3B5D00A90A02 /* Demo2TriangleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D0408CB209F3B5D00A90A02 /* Demo2TriangleViewController.m */; };
 		7D92710D209F0C95001BF927 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D92710C209F0C95001BF927 /* AppDelegate.m */; };
 		7D927110209F0C95001BF927 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D92710F209F0C95001BF927 /* ViewController.m */; };
 		7D927113209F0C95001BF927 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D927111209F0C95001BF927 /* Main.storyboard */; };
@@ -53,6 +55,9 @@
 		7D0408BD209F12D900A90A02 /* FragmentShader.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = FragmentShader.fsh; sourceTree = "<group>"; };
 		7D0408C5209F271400A90A02 /* TriangleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TriangleViewController.h; sourceTree = "<group>"; };
 		7D0408C6209F271400A90A02 /* TriangleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TriangleViewController.m; sourceTree = "<group>"; };
+		7D0408C8209F3B4A00A90A02 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		7D0408CA209F3B5D00A90A02 /* Demo2TriangleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Demo2TriangleViewController.h; sourceTree = "<group>"; };
+		7D0408CB209F3B5D00A90A02 /* Demo2TriangleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo2TriangleViewController.m; sourceTree = "<group>"; };
 		7D927108209F0C95001BF927 /* OpenGLESDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenGLESDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D92710B209F0C95001BF927 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7D92710C209F0C95001BF927 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -90,6 +95,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D0408C9209F3B4A00A90A02 /* GLKit.framework in Frameworks */,
 				7D927143209F0E05001BF927 /* OpenGLES.framework in Frameworks */,
 				7D927141209F0E00001BF927 /* QuartzCore.framework in Frameworks */,
 				28F026A2832AA7F9D133BB71 /* libPods-OpenGLESDemo.a in Frameworks */,
@@ -131,6 +137,7 @@
 		5AE7510C5175ED5A25014C79 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7D0408C8209F3B4A00A90A02 /* GLKit.framework */,
 				7D927142209F0E05001BF927 /* OpenGLES.framework */,
 				7D927140209F0E00001BF927 /* QuartzCore.framework */,
 				D7F01229BDF311D5CB9826A1 /* libPods-OpenGLESDemo.a */,
@@ -212,6 +219,8 @@
 		7D92713E209F0DC7001BF927 /* Demo2 */ = {
 			isa = PBXGroup;
 			children = (
+				7D0408CA209F3B5D00A90A02 /* Demo2TriangleViewController.h */,
+				7D0408CB209F3B5D00A90A02 /* Demo2TriangleViewController.m */,
 			);
 			path = Demo2;
 			sourceTree = "<group>";
@@ -461,6 +470,7 @@
 				7D92711B209F0C96001BF927 /* main.m in Sources */,
 				7D0408C7209F271400A90A02 /* TriangleViewController.m in Sources */,
 				7D92714A209F0FC7001BF927 /* GLESUtils.m in Sources */,
+				7D0408CC209F3B5D00A90A02 /* Demo2TriangleViewController.m in Sources */,
 				7D92714D209F1034001BF927 /* Demo1TriangleViewController.m in Sources */,
 				7D92710D209F0C95001BF927 /* AppDelegate.m in Sources */,
 				7D927146209F0EDB001BF927 /* Demo1TriangleDemoView.m in Sources */,

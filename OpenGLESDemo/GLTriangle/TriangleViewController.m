@@ -19,8 +19,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.titleArray = @[@"Demo1 不使用 GLKit"];
-    self.clzArray = @[@"Demo1TriangleViewController"];
+    self.titleArray = @[@"Demo1 不使用 GLKit",@"Demo2 使用 GLKit"];
+    self.clzArray = @[@"Demo1TriangleViewController",@"Demo2TriangleViewController"];
     
     self.tableview = [[UITableView alloc] initWithFrame:CGRectZero style:UITableViewStylePlain];
     self.tableview.delegate = self;

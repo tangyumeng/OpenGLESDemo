@@ -61,8 +61,8 @@
 
 - (void)setupBuffers
 {
-    glGenRenderbuffers(1, &_colorRenderBuffer);
-    // 设置为当前 renderbuffer
+    glGenRenderbuffers(1, &_colorRenderBuffer);  // 生成render buffer，使用 _colorRenderBuffer 可以引用到
+    // 设置为当前 renderbuffer ，第一个参数必须为 GL_RENDERBUFFER 。 第二个参数指定 bind 的renderbuffer 对象。由glGenRenderbuffers 生成。当指定的 id 的renderbuffer （该例中即为 _colorRenderBuffer） 第一次被设置为当前的renderbuffer 时，会初始化该 renderbuffer 对象
     glBindRenderbuffer(GL_RENDERBUFFER, _colorRenderBuffer);
     // 为 color renderbuffer 分配存储空间
     [_context renderbufferStorage:GL_RENDERBUFFER fromDrawable:_eaglLayer];
