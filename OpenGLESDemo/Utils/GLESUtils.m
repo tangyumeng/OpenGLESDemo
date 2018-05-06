@@ -26,7 +26,9 @@
 
 +(GLuint)loadShader:(GLenum)type withString:(NSString *)shaderString
 {   
-    // Create the shader object
+    // glCreateShader 创建空白着色器对象，并返回一个非零值，通过这个值可以引用到创建的着色器对象。
+    // 一个着色器对象主要用来维护定义着色器的源代码字符串
+    //参数只能是 GL_VERTEX_SHADER 、GL_FRAGMENT_SHADER (顶点着色器、片元着色器)
     GLuint shader = glCreateShader(type);
     if (shader == 0) {
         NSLog(@"Error: failed to create shader.");
