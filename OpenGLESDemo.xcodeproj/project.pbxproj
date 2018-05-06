@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		28F026A2832AA7F9D133BB71 /* libPods-OpenGLESDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D7F01229BDF311D5CB9826A1 /* libPods-OpenGLESDemo.a */; };
+		7D0408BC209F12A000A90A02 /* VertexShader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 7D0408BB209F12A000A90A02 /* VertexShader.vsh */; };
+		7D0408BE209F12D900A90A02 /* FragmentShader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 7D0408BD209F12D900A90A02 /* FragmentShader.fsh */; };
+		7D0408C7209F271400A90A02 /* TriangleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D0408C6209F271400A90A02 /* TriangleViewController.m */; };
 		7D92710D209F0C95001BF927 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D92710C209F0C95001BF927 /* AppDelegate.m */; };
 		7D927110209F0C95001BF927 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D92710F209F0C95001BF927 /* ViewController.m */; };
 		7D927113209F0C95001BF927 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D927111209F0C95001BF927 /* Main.storyboard */; };
@@ -15,6 +19,13 @@
 		7D92711B209F0C96001BF927 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D92711A209F0C96001BF927 /* main.m */; };
 		7D927125209F0C96001BF927 /* OpenGLESDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D927124209F0C96001BF927 /* OpenGLESDemoTests.m */; };
 		7D927130209F0C96001BF927 /* OpenGLESDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D92712F209F0C96001BF927 /* OpenGLESDemoUITests.m */; };
+		7D927141209F0E00001BF927 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D927140209F0E00001BF927 /* QuartzCore.framework */; };
+		7D927143209F0E05001BF927 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D927142209F0E05001BF927 /* OpenGLES.framework */; };
+		7D927146209F0EDB001BF927 /* Demo1TriangleDemoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D927145209F0EDB001BF927 /* Demo1TriangleDemoView.m */; };
+		7D92714A209F0FC7001BF927 /* GLESUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D927148209F0FC7001BF927 /* GLESUtils.m */; };
+		7D92714D209F1034001BF927 /* Demo1TriangleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D92714C209F1034001BF927 /* Demo1TriangleViewController.m */; };
+		CE89AD4A7CD1387A13F99027 /* libPods-OpenGLESDemoUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B9CAC7408A8E36C6A8406E7 /* libPods-OpenGLESDemoUITests.a */; };
+		FA8A0DDF65515A8A26A794C1 /* libPods-OpenGLESDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D322A638C5A149511F986F63 /* libPods-OpenGLESDemoTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +46,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0B9CAC7408A8E36C6A8406E7 /* libPods-OpenGLESDemoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OpenGLESDemoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BF2A75389055ADD3620EFFD /* Pods-OpenGLESDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenGLESDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OpenGLESDemoTests/Pods-OpenGLESDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		355A42842FBDD2CC75FBB8A5 /* Pods-OpenGLESDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenGLESDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-OpenGLESDemoTests/Pods-OpenGLESDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		7D0408BB209F12A000A90A02 /* VertexShader.vsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = VertexShader.vsh; sourceTree = "<group>"; };
+		7D0408BD209F12D900A90A02 /* FragmentShader.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = FragmentShader.fsh; sourceTree = "<group>"; };
+		7D0408C5209F271400A90A02 /* TriangleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TriangleViewController.h; sourceTree = "<group>"; };
+		7D0408C6209F271400A90A02 /* TriangleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TriangleViewController.m; sourceTree = "<group>"; };
 		7D927108209F0C95001BF927 /* OpenGLESDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenGLESDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D92710B209F0C95001BF927 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7D92710C209F0C95001BF927 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +69,20 @@
 		7D92712B209F0C96001BF927 /* OpenGLESDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenGLESDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D92712F209F0C96001BF927 /* OpenGLESDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenGLESDemoUITests.m; sourceTree = "<group>"; };
 		7D927131209F0C96001BF927 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D927140209F0E00001BF927 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		7D927142209F0E05001BF927 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		7D927144209F0EDB001BF927 /* Demo1TriangleDemoView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Demo1TriangleDemoView.h; sourceTree = "<group>"; };
+		7D927145209F0EDB001BF927 /* Demo1TriangleDemoView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo1TriangleDemoView.m; sourceTree = "<group>"; };
+		7D927148209F0FC7001BF927 /* GLESUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLESUtils.m; sourceTree = "<group>"; };
+		7D927149209F0FC7001BF927 /* GLESUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLESUtils.h; sourceTree = "<group>"; };
+		7D92714B209F1034001BF927 /* Demo1TriangleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Demo1TriangleViewController.h; sourceTree = "<group>"; };
+		7D92714C209F1034001BF927 /* Demo1TriangleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo1TriangleViewController.m; sourceTree = "<group>"; };
+		A59712909A0974C94CBA7FE4 /* Pods-OpenGLESDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenGLESDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-OpenGLESDemo/Pods-OpenGLESDemo.release.xcconfig"; sourceTree = "<group>"; };
+		A86636621E60E8853D114FD2 /* Pods-OpenGLESDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenGLESDemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-OpenGLESDemoUITests/Pods-OpenGLESDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B896270364EFA845CF7DD1BD /* Pods-OpenGLESDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenGLESDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OpenGLESDemo/Pods-OpenGLESDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		D322A638C5A149511F986F63 /* libPods-OpenGLESDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OpenGLESDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7F01229BDF311D5CB9826A1 /* libPods-OpenGLESDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OpenGLESDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE79EB1886060A0ADBCF9422 /* Pods-OpenGLESDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenGLESDemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OpenGLESDemoUITests/Pods-OpenGLESDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +90,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D927143209F0E05001BF927 /* OpenGLES.framework in Frameworks */,
+				7D927141209F0E00001BF927 /* QuartzCore.framework in Frameworks */,
+				28F026A2832AA7F9D133BB71 /* libPods-OpenGLESDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA8A0DDF65515A8A26A794C1 /* libPods-OpenGLESDemoTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +108,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE89AD4A7CD1387A13F99027 /* libPods-OpenGLESDemoUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3F4ED6363B91339C0DB57A1B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B896270364EFA845CF7DD1BD /* Pods-OpenGLESDemo.debug.xcconfig */,
+				A59712909A0974C94CBA7FE4 /* Pods-OpenGLESDemo.release.xcconfig */,
+				0BF2A75389055ADD3620EFFD /* Pods-OpenGLESDemoTests.debug.xcconfig */,
+				355A42842FBDD2CC75FBB8A5 /* Pods-OpenGLESDemoTests.release.xcconfig */,
+				DE79EB1886060A0ADBCF9422 /* Pods-OpenGLESDemoUITests.debug.xcconfig */,
+				A86636621E60E8853D114FD2 /* Pods-OpenGLESDemoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5AE7510C5175ED5A25014C79 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7D927142209F0E05001BF927 /* OpenGLES.framework */,
+				7D927140209F0E00001BF927 /* QuartzCore.framework */,
+				D7F01229BDF311D5CB9826A1 /* libPods-OpenGLESDemo.a */,
+				D322A638C5A149511F986F63 /* libPods-OpenGLESDemoTests.a */,
+				0B9CAC7408A8E36C6A8406E7 /* libPods-OpenGLESDemoUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		7D9270FF209F0C95001BF927 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +147,8 @@
 				7D927123209F0C96001BF927 /* OpenGLESDemoTests */,
 				7D92712E209F0C96001BF927 /* OpenGLESDemoUITests */,
 				7D927109209F0C95001BF927 /* Products */,
+				3F4ED6363B91339C0DB57A1B /* Pods */,
+				5AE7510C5175ED5A25014C79 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +165,8 @@
 		7D92710A209F0C95001BF927 /* OpenGLESDemo */ = {
 			isa = PBXGroup;
 			children = (
+				7D927147209F0FC7001BF927 /* Utils */,
+				7D92713D209F0DC7001BF927 /* GLTriangle */,
 				7D92710B209F0C95001BF927 /* AppDelegate.h */,
 				7D92710C209F0C95001BF927 /* AppDelegate.m */,
 				7D92710E209F0C95001BF927 /* ViewController.h */,
@@ -132,6 +198,46 @@
 			path = OpenGLESDemoUITests;
 			sourceTree = "<group>";
 		};
+		7D92713D209F0DC7001BF927 /* GLTriangle */ = {
+			isa = PBXGroup;
+			children = (
+				7D92713E209F0DC7001BF927 /* Demo2 */,
+				7D92713F209F0DC7001BF927 /* Demo1 */,
+				7D0408C5209F271400A90A02 /* TriangleViewController.h */,
+				7D0408C6209F271400A90A02 /* TriangleViewController.m */,
+			);
+			path = GLTriangle;
+			sourceTree = "<group>";
+		};
+		7D92713E209F0DC7001BF927 /* Demo2 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Demo2;
+			sourceTree = "<group>";
+		};
+		7D92713F209F0DC7001BF927 /* Demo1 */ = {
+			isa = PBXGroup;
+			children = (
+				7D927144209F0EDB001BF927 /* Demo1TriangleDemoView.h */,
+				7D927145209F0EDB001BF927 /* Demo1TriangleDemoView.m */,
+				7D92714B209F1034001BF927 /* Demo1TriangleViewController.h */,
+				7D92714C209F1034001BF927 /* Demo1TriangleViewController.m */,
+				7D0408BB209F12A000A90A02 /* VertexShader.vsh */,
+				7D0408BD209F12D900A90A02 /* FragmentShader.fsh */,
+			);
+			path = Demo1;
+			sourceTree = "<group>";
+		};
+		7D927147209F0FC7001BF927 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				7D927148209F0FC7001BF927 /* GLESUtils.m */,
+				7D927149209F0FC7001BF927 /* GLESUtils.h */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +245,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7D927134209F0C96001BF927 /* Build configuration list for PBXNativeTarget "OpenGLESDemo" */;
 			buildPhases = (
+				106E218B2F635192197450FA /* [CP] Check Pods Manifest.lock */,
 				7D927104209F0C95001BF927 /* Sources */,
 				7D927105209F0C95001BF927 /* Frameworks */,
 				7D927106209F0C95001BF927 /* Resources */,
+				A9CE0AB2FDF8B79A17CFF130 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -156,6 +264,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7D927137209F0C96001BF927 /* Build configuration list for PBXNativeTarget "OpenGLESDemoTests" */;
 			buildPhases = (
+				DBA9B0ECE4C687E410523478 /* [CP] Check Pods Manifest.lock */,
 				7D92711C209F0C96001BF927 /* Sources */,
 				7D92711D209F0C96001BF927 /* Frameworks */,
 				7D92711E209F0C96001BF927 /* Resources */,
@@ -174,6 +283,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7D92713A209F0C96001BF927 /* Build configuration list for PBXNativeTarget "OpenGLESDemoUITests" */;
 			buildPhases = (
+				BEBB087A8E0ABB8F38D537B6 /* [CP] Check Pods Manifest.lock */,
 				7D927127209F0C96001BF927 /* Sources */,
 				7D927128209F0C96001BF927 /* Frameworks */,
 				7D927129209F0C96001BF927 /* Resources */,
@@ -235,6 +345,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D0408BC209F12A000A90A02 /* VertexShader.vsh in Resources */,
+				7D0408BE209F12D900A90A02 /* FragmentShader.fsh in Resources */,
 				7D927118209F0C96001BF927 /* LaunchScreen.storyboard in Resources */,
 				7D927115209F0C96001BF927 /* Assets.xcassets in Resources */,
 				7D927113209F0C95001BF927 /* Main.storyboard in Resources */,
@@ -257,6 +369,89 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		106E218B2F635192197450FA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OpenGLESDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A9CE0AB2FDF8B79A17CFF130 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-OpenGLESDemo/Pods-OpenGLESDemo-resources.sh",
+				"${PODS_ROOT}/GPUImage/framework/Resources/lookup.png",
+				"${PODS_ROOT}/GPUImage/framework/Resources/lookup_amatorka.png",
+				"${PODS_ROOT}/GPUImage/framework/Resources/lookup_miss_etikate.png",
+				"${PODS_ROOT}/GPUImage/framework/Resources/lookup_soft_elegance_1.png",
+				"${PODS_ROOT}/GPUImage/framework/Resources/lookup_soft_elegance_2.png",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/lookup.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/lookup_amatorka.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/lookup_miss_etikate.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/lookup_soft_elegance_1.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/lookup_soft_elegance_2.png",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OpenGLESDemo/Pods-OpenGLESDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BEBB087A8E0ABB8F38D537B6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OpenGLESDemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DBA9B0ECE4C687E410523478 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OpenGLESDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7D927104209F0C95001BF927 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -264,7 +459,11 @@
 			files = (
 				7D927110209F0C95001BF927 /* ViewController.m in Sources */,
 				7D92711B209F0C96001BF927 /* main.m in Sources */,
+				7D0408C7209F271400A90A02 /* TriangleViewController.m in Sources */,
+				7D92714A209F0FC7001BF927 /* GLESUtils.m in Sources */,
+				7D92714D209F1034001BF927 /* Demo1TriangleViewController.m in Sources */,
 				7D92710D209F0C95001BF927 /* AppDelegate.m in Sources */,
+				7D927146209F0EDB001BF927 /* Demo1TriangleDemoView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,6 +630,7 @@
 		};
 		7D927135209F0C96001BF927 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B896270364EFA845CF7DD1BD /* Pods-OpenGLESDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -448,6 +648,7 @@
 		};
 		7D927136209F0C96001BF927 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A59712909A0974C94CBA7FE4 /* Pods-OpenGLESDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -465,6 +666,7 @@
 		};
 		7D927138209F0C96001BF927 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0BF2A75389055ADD3620EFFD /* Pods-OpenGLESDemoTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -484,6 +686,7 @@
 		};
 		7D927139209F0C96001BF927 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 355A42842FBDD2CC75FBB8A5 /* Pods-OpenGLESDemoTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -503,6 +706,7 @@
 		};
 		7D92713B209F0C96001BF927 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE79EB1886060A0ADBCF9422 /* Pods-OpenGLESDemoUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CY62DKKZTA;
@@ -521,6 +725,7 @@
 		};
 		7D92713C209F0C96001BF927 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A86636621E60E8853D114FD2 /* Pods-OpenGLESDemoUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CY62DKKZTA;
